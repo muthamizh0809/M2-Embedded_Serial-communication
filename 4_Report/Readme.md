@@ -42,6 +42,7 @@ A collection of sample codes for communicating with Linux/Windows PC from an ATm
 ## ATmega328p Clocking (Fuse Bits)
 - External 11.0592MHz Crystal
 - *avrdude -c usbasp -p m328p -U lfuse:w:0xFF:m*
+- # Activity images
 - ![image](https://user-images.githubusercontent.com/94265667/144376425-ec264d37-a523-4c5c-8ea3-c166bab5f53b.png)
 
 
