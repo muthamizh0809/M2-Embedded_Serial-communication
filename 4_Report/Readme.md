@@ -48,6 +48,24 @@ A collection of sample codes for communicating with Linux/Windows PC from an ATm
 - ![image](https://user-images.githubusercontent.com/94265667/144376824-8cade47b-dd63-4f2e-95a1-5c8761c58f2b.png)
 - # Circuit diagram
 ![image](https://user-images.githubusercontent.com/94265667/144378622-6b0dce7b-0266-4461-99f5-7dd37a59e490.png)
+# Implementation
+## Introduction
+This folder conatins all the coding files as well as the resources and testing files neede for proper execution of program
+## Instructions to execute
+1.Clone my repository
+2.Go to 3_Implementation folder
+3.Make sure your system meets all software and hardware requirements
+4.Run "make run" command in terminal for main code execution
+5.Run "make run_test" command in terminal for test code execution.
+## Folder Structure
+|Column 1 Header |Column 2 Header |
+|--- |--- |
+|Receiver |All header files|
+| | |
+|Transmittet |Main source code for system|
+| | |
+|test |All source code and data for testing purposes|
+| | |
 
 
 
