@@ -60,7 +60,7 @@ This folder conatins all the coding files as well as the resources and testing f
 ## Folder Structure
 |Column 1 Header |Column 2 Header |
 |--- |--- |
-|Receiver |All header files|
+|Receiver |Main source code for system|
 | | |
 |Transmittet |Main source code for system|
 | | |
