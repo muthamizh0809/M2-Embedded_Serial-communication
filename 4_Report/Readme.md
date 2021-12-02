@@ -44,7 +44,10 @@ A collection of sample codes for communicating with Linux/Windows PC from an ATm
 - *avrdude -c usbasp -p m328p -U lfuse:w:0xFF:m*
 - # Activity images
 - ![image](https://user-images.githubusercontent.com/94265667/144376425-ec264d37-a523-4c5c-8ea3-c166bab5f53b.png)
+- # Schematic diagram
 - ![image](https://user-images.githubusercontent.com/94265667/144376824-8cade47b-dd63-4f2e-95a1-5c8761c58f2b.png)
+- # Circuit diagram
+![image](https://user-images.githubusercontent.com/94265667/144378622-6b0dce7b-0266-4461-99f5-7dd37a59e490.png)
 
 
 
