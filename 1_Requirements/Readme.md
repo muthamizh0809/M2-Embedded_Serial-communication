@@ -18,3 +18,27 @@ ATmega328 has 1KB Electrically Erasable Programmable Read-Only Memory (EEPROM). 
 ### 1.SimullDE
 ### 2.Gcc compiler for AVR
 ### 3.Vs code
+
+# ATmega238p to PC Serial Communication(RX/TX) using USART  
+
+A collection of sample codes for communicating with Linux/Windows PC from an ATmega328p microcontroller using USART in asynchronous mode.
+
+<img src = "https://www.xanthium.in/sites/default/files/site-images/atmega328p-usart-tutorial/atmega328p-pc-serial-communication-tutorial.jpg"/>
+
+## Code
+
+- Sourcecode written in **Embedded C**. 
+- Compiled using **AVR-GCC** using **Make** utility.
+- Code can be uploaded using AVRDUDE and any compatible programmer.
+
+## Hardware setup
+
+- Code tested on ATmega328p (32 pin TQFP).
+- ATmega328p Clocked with a **11.0592MHz external crystal**.
+- USB to Serial Converter used to connect ATmega328p with PC 
+- PuTTY used to receive and Transmit data
+- <img src = "https://www.xanthium.in/sites/default/files/site-images/atmega328p-usart-tutorial/atmega328p-serial-communication-pc.jpg"/>
+
+## ATmega328p Clocking (Fuse Bits)
+- External 11.0592MHz Crystal
+- *avrdude -c usbasp -p m328p -U lfuse:w:0xFF:m*
